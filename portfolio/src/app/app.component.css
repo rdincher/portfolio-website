@@ -1,0 +1,12 @@
+.toolbar-button-row {
+    display: table-cell;
+  }
+
+.toolbar-button-row button {
+    display: table-cell;
+    margin-right: 8px;
+  }
+
+.background {
+    background-color: #3f51b5;
+}

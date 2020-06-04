@@ -1,9 +1,9 @@
-<!-- Toolbar -->
-<mat-toolbar color="primary">
-    <button mat-raised-button color="secondary" routerLink="/homepage" routerLinkActive="active">Homepage</button>
-    <button mat-raised-button color="secondary" routerLink="/projects" routerLinkActive="active">Projects</button>
+<h1>Ryan Dincher</h1>
+<mat-toolbar color="secondary">
+  <div class="toolbar-button-row">
+    <button mat-raised-button color="primary" routerLink="/homepage" routerLinkActive="active">Homepage</button>
+    <button mat-raised-button color="primary" routerLink="/projects" routerLinkActive="active">Projects</button>
+  </div>
 </mat-toolbar>
 
-<div class="body">
-  <router-outlet></router-outlet>
-</div>
+<router-outlet></router-outlet>
